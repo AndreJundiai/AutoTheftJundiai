@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover" />
+  <meta name="theme-color" content="#1b1640" />
+  <title>Auto Theft Jundiaí</title>
+</head>
+<body>
+  <canvas id="game"></canvas>
+  <div id="hud">
+    <div id="mission"><div id="mission-title"></div><div id="objective"></div><div id="timer"></div><div id="job"></div></div>
+    <div id="clock"></div>
+    <div id="status">
+      <div id="stars"></div>
+      <div id="health"><div id="health-bar"></div></div>
+      <div id="money">R$ 150,00</div>
+      <div id="briefcase">💼 Maleta</div>
+      <div id="groceries">🛍️ Compras do Dom</div>
+    </div>
+    <div id="minimap"><div id="mm-map"></div><canvas id="mm-canvas" width="440" height="440"></canvas><div id="mm-player"></div></div>
+    <div id="street"></div>
+    <div id="speed"></div>
+    <div id="prompt"></div>
+    <div id="toast"></div>
+    <div id="call"><div class="from"></div><div class="text"></div></div>
+    <div id="bubbles"></div>
+    <div id="perf"></div>
+    <div id="help">WASD mover · Mouse câmera (clique para travar) · Shift correr · Espaço pular / freio de mão · E entrar/sair/interagir · H buzina · J aceitar entrega · G gráficos · M som · R rádio · P pausa</div>
+    <div id="credits">Modelo humano: “Nathan Animated 003” por Renderpeople (CC-BY 4.0) · Mapa © colaboradores do OpenStreetMap</div>
+  </div>
+  <div id="loading">Carregando...</div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

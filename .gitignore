@@ -1,0 +1,4 @@
+node_modules/
+dist/
+public/map/jundiai/
+.bake-cache/
